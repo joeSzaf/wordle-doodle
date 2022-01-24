@@ -1,0 +1,12 @@
+.tile {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    outline: gray 2px solid;
+  }
+
+  .tile:hover {
+    cursor: pointer;
+  }

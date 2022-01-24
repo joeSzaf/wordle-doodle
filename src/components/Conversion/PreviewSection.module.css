@@ -1,0 +1,26 @@
+.preview ul {
+  list-style: none;
+  font-size: 1.5rem;
+  font-family: monospace;
+}
+
+.review div {
+  margin-bottom: 1rem;
+}
+
+.parsedText {
+  margin-bottom: 1rem;
+}
+
+.parsedTextArea {
+  margin-left: 2rem;
+}
+
+.selectEmojis {
+  margin-left: 2rem;
+}
+
+.selectEmojis select {
+  height: 2rem;
+  font-size: 1.2rem;
+}

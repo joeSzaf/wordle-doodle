@@ -1,0 +1,18 @@
+.conversionSection textarea {
+    width: 100%;
+    display: block;
+    border: 2px solid #3F4850;
+    font-size: 1rem;
+    resize: none;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+.conversionSection form {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.conversionSection button {
+    margin-left: 2rem;
+}

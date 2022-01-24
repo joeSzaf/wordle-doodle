@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', 'Lato', sans-serif;
+  margin: 0;
+}
+
+section {
+  margin: 0;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', sans-serif;
+}
+
+main {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #fafaff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  padding: 2em;
+}
+
+html {
+  font-family: sans-serif;
+  background: #818f9c;
+}
+
+main section {
+  margin-bottom: 2em;
+}
+
+.black-background {
+  background-color: #787C7E;
+}
+
+.yellow-background {
+  background-color: #c9b458;
+}
+
+.green-background {
+  background-color: #6aaa64;
+}
+
+.blue-background {
+  background-color: #85C0F9;
+}
+
+.orange-background {
+  background-color: #F5793A;
+}
+
+/* The switch - the box around the slider css from https://www.w3schools.com/howto/howto_css_switch.asp */
+.switch {
+  position: relative;
+  display: inline-block;
+  /* width: 60px;
+  height: 34px; */
+  width: 3.4rem;
+  height: 1.8rem;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 1.2rem;
+  width: 1.2rem;
+  left: 0.3em;
+  bottom: 0.3rem;
+  /* height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px; */
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(1.5rem);
+  -ms-transform: translateX(1.5rem);
+  transform: translateX(1.5rem);
+}
+
+.line-break-text {
+  white-space: pre-line;  
+}

@@ -1,0 +1,43 @@
+.boardContainer {
+  width: max-content;
+  display: block;
+  margin: 0 auto;
+}
+
+.buttonContainer {
+  width: max-content;
+  display: block;
+  margin: 0 auto;
+}
+
+.buttonContainer button {
+  margin: 0.2rem;
+}
+
+.clearButton {
+  background-color: pink;
+}
+
+.board ul {
+  list-style: none;
+}
+
+.toggleContainer {
+  margin-left: 3rem;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.toggleLabel {
+  padding-left: 0.4rem;
+}
+
+.copiedClipboardTextDiv {
+  margin-top: 1rem;
+}
+
+.copiedClipboardTextDiv p {
+  background-color: rgb(218, 242, 250);
+  display: inline-block;
+  padding: 0.5rem;
+}
